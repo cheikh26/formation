@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin":{
+	"static-formation-node": "./bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -18,6 +21,7 @@
   },
   "homepage": "https://github.com/cheikh26/formation#readme",
   "dependencies": {
+    "bossy": "^3.0.2",
     "hapi": "^15.2.0",
     "inert": "^4.0.2"
   }
