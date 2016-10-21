@@ -1,0 +1,24 @@
+{
+  "name": "formation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheikh26/formation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheikh26/formation/issues"
+  },
+  "homepage": "https://github.com/cheikh26/formation#readme",
+  "dependencies": {
+    "hapi": "^15.2.0",
+    "inert": "^4.0.2"
+  }
+}
